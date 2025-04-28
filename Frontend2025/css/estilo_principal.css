@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(216, 220, 220);
+}
+.contenedor_cv{
+    background-color: blue;
+    padding: 10px;
+}
+.cabecera{
+    background-color: rgb(152, 186, 193);
+    padding: 10px;
+    display: flex;
+}
+.contenedor_principal{
+    background-color: rgb(97, 137, 231);
+    padding: 10px;
+    display: flex;
+}
+.barra_lateral{
+    background-color:rgb(92, 68, 170);
+    padding: 10px;
+    width: 40%;
+}
+
+.informacion_cv{
+    background-color: rgb(87, 18, 208) ;
+    padding: 10px;
+    width: 80%;           
+    flex-direction: column;   
+    gap: 10px;  
+}
+
+.contenedor_pie_pagina{
+    background-color: rgb(18, 25, 22);
+    padding: 9px;
+    display: flex;
+    width: 98vw;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.pie_correo{
+    background-color: blueviolet;
+    padding: 9px;
+}
+
+.pie_telefono{
+    background-color: rgb(116, 57, 172);
+    padding: 9px;
+}
+
+.pie_direccion{
+    background-color: rgb(79, 31, 125);
+    padding: 9px;
+}
+
+.foto_personal{
+    width: 50%;
+    border-radius: 50%;
+
+}
+
+.contenedor_foto{
+    width: 30%;
+}
+
+
